@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".TelaInicial">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/fundo_logo4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/investing_logo_2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/ic_search_category_default"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/Barra"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:fadeScrollbars="true"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="Índices" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="Futuros de Índices" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="Ações" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="Commodities" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="Câmbio" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="Criptomoedas" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="Renda Fixa" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="ETF" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2C2C2C"
+                android:text="Fundos" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="405dp"
+        android:layout_height="621dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Barra">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:orientation="vertical">
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:orientation="vertical">
+
+                                                    <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:orientation="vertical">
+
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical">
+
+                                                            <Button
+                                                                android:id="@+id/button40"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="60dp"
+                                                                android:background="#000000"
+                                                                android:gravity="start"
+                                                                android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                                                android:textSize="18sp" />
+
+                                                        </LinearLayout>
+
+                                                        <Button
+                                                            android:id="@+id/button40"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="60dp"
+                                                            android:background="#000000"
+                                                            android:gravity="start"
+                                                            android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                                            android:textSize="18sp" />
+
+                                                    </LinearLayout>
+
+                                                    <Button
+                                                        android:id="@+id/button40"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="60dp"
+                                                        android:background="#000000"
+                                                        android:gravity="start"
+                                                        android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                                        android:textSize="18sp" />
+
+                                                </LinearLayout>
+
+                                                <Button
+                                                    android:id="@+id/button40"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="60dp"
+                                                    android:background="#000000"
+                                                    android:gravity="start"
+                                                    android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                                    android:textSize="18sp" />
+
+                                            </LinearLayout>
+
+                                            <Button
+                                                android:id="@+id/button40"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="60dp"
+                                                android:background="#000000"
+                                                android:gravity="start"
+                                                android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                                android:textSize="18sp" />
+
+                                        </LinearLayout>
+
+                                        <Button
+                                            android:id="@+id/button40"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="60dp"
+                                            android:background="#000000"
+                                            android:gravity="start"
+                                            android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                            android:textSize="18sp" />
+
+                                    </LinearLayout>
+
+                                    <Button
+                                        android:id="@+id/button40"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="60dp"
+                                        android:background="#000000"
+                                        android:gravity="start"
+                                        android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                        android:textSize="18sp" />
+
+                                </LinearLayout>
+
+                                <Button
+                                    android:id="@+id/button40"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:background="#000000"
+                                    android:gravity="start"
+                                    android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/button40"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:background="#000000"
+                                android:gravity="start"
+                                android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/button40"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:background="#000000"
+                            android:gravity="start"
+                            android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/button40"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="#000000"
+                        android:gravity="start"
+                        android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button40"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#000000"
+                    android:gravity="start"
+                    android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:gravity="start"
+                android:text="Ibovespa                                             104.600,64\n17:15:00 | BM&amp;FBovespa         -453,36(-0,43%)"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button22"
+        app:layout_constraintStart_toEndOf="@+id/button26" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button21"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button24"
+        app:layout_constraintStart_toEndOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button25"
+        app:layout_constraintStart_toEndOf="@+id/button22" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
